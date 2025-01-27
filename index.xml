@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>YusJade`s Blog</title>
+    <title>YusJade 的个人博客</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on YusJade`s Blog</description>
+    <description>Recent content on YusJade 的个人博客</description>
     <image>
-      <title>YusJade`s Blog</title>
+      <title>YusJade 的个人博客</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.142.0</generator>
-    <language>en</language>
+    <language>zh</language>
+    <lastBuildDate>Mon, 27 Jan 2025 12:41:17 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 ncnn 将 Yolov7 部署到 Android</title>
+      <link>http://localhost:1313/posts/note-yolov7-employ-ncnn/</link>
+      <pubDate>Mon, 27 Jan 2025 12:41:17 +0800</pubDate>
+      <guid>http://localhost:1313/posts/note-yolov7-employ-ncnn/</guid>
+      <description>&lt;h2 id=&#34;拉取-yolov7-仓库并配置适用的虚拟环境&#34;&gt;拉取 Yolov7 仓库并配置适用的虚拟环境&lt;/h2&gt;
+&lt;h3 id=&#34;安装-git-和-miniconda&#34;&gt;安装 Git 和 MiniConda&lt;/h3&gt;
+&lt;h2 id=&#34;训练前的一些配置&#34;&gt;训练前的一些配置&lt;/h2&gt;
+&lt;h2 id=&#34;训练进行时&#34;&gt;训练进行时&lt;/h2&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>友链</title>
+      <link>http://localhost:1313/friends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/friends/</guid>
+      <description>&lt;a target=&#34;_blank&#34; href=https://serennan.github.io/ title=SerenNan class=&#34;friendurl&#34;&gt;
+  &lt;div class=&#34;frienddiv&#34;&gt;
+    &lt;div class=&#34;frienddivleft&#34;&gt;
+      &lt;img class=&#34;myfriend&#34; src=https://serennan.github.io/img/avatar_hu_47dcc2efc37d0778.png /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;frienddivright&#34;&gt;
+      &lt;div class=&#34;friendname&#34;&gt;SerenNan&lt;/div&gt;
+      &lt;div class=&#34;friendinfo&#34;&gt;SerenNan的博客&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;</description>
+    </item>
   </channel>
 </rss>

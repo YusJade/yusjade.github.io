@@ -3,9 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-01-27T12:41:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ncnn/</loc>
+    <lastmod>2025-01-27T12:41:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-01-27T12:41:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/yolo/</loc>
+    <lastmod>2025-01-27T12:41:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-27T12:41:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2025-01-27T12:41:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/note-yolov7-employ-ncnn/</loc>
+    <lastmod>2025-01-27T12:41:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/friends/</loc>
   </url>
 </urlset>
