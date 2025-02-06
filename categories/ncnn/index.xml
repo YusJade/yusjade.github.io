@@ -18,11 +18,11 @@
       <link>http://localhost:1313/posts/note-yolov7-employ-ncnn/</link>
       <pubDate>Mon, 27 Jan 2025 12:41:17 +0800</pubDate>
       <guid>http://localhost:1313/posts/note-yolov7-employ-ncnn/</guid>
-      <description>&lt;h2 id=&#34;拉取-yolov7-仓库并配置适用的虚拟环境&#34;&gt;拉取 Yolov7 仓库并配置适用的虚拟环境&lt;/h2&gt;
-&lt;h3 id=&#34;安装-git-和-miniconda&#34;&gt;安装 Git 和 MiniConda&lt;/h3&gt;
-&lt;h2 id=&#34;训练前的一些配置&#34;&gt;训练前的一些配置&lt;/h2&gt;
-&lt;h2 id=&#34;训练进行时&#34;&gt;训练进行时&lt;/h2&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;part1-拉取-yolov7-仓库并配置适用的虚拟环境&#34;&gt;part1: 拉取 Yolov7 仓库并配置适用的虚拟环境&lt;/h2&gt;
+&lt;h3 id=&#34;part1-1-安装-git-和-miniconda&#34;&gt;part1-1: 安装 Git 和 MiniConda&lt;/h3&gt;
+
+&lt;div class=&#34;notice notice-info&#34; &gt;
+    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;Git 是一个分布式版本控制系统，主要用于跟踪代码变更、协作开发和版本管理。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
