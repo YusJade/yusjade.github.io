@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yolo on YusJade 的个人博客</title>
-    <link>http://localhost:1313/categories/yolo/</link>
+    <link>https://yusjade.github.io/categories/yolo/</link>
     <description>Recent content in Yolo on YusJade 的个人博客</description>
     <image>
       <title>YusJade 的个人博客</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://yusjade.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yusjade.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 27 Jan 2025 12:41:17 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/yolo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusjade.github.io/categories/yolo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 ncnn 将 Yolov7 部署到 Android</title>
-      <link>http://localhost:1313/posts/note-yolov7-employ-ncnn/</link>
+      <link>https://yusjade.github.io/posts/note-yolov7-employ-ncnn/</link>
       <pubDate>Mon, 27 Jan 2025 12:41:17 +0800</pubDate>
-      <guid>http://localhost:1313/posts/note-yolov7-employ-ncnn/</guid>
+      <guid>https://yusjade.github.io/posts/note-yolov7-employ-ncnn/</guid>
       <description>&lt;h2 id=&#34;part1-拉取-yolov7-仓库并配置适用的虚拟环境&#34;&gt;part1: 拉取 Yolov7 仓库并配置适用的虚拟环境&lt;/h2&gt;
 &lt;h3 id=&#34;part1-1-安装-git-和-miniconda&#34;&gt;part1-1: 安装 Git 和 MiniConda&lt;/h3&gt;
 

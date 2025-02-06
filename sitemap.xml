@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://yusjade.github.io/categories/</loc>
     <lastmod>2025-01-27T12:41:17+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ncnn/</loc>
+    <loc>https://yusjade.github.io/categories/ncnn/</loc>
     <lastmod>2025-01-27T12:41:17+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://yusjade.github.io/posts/</loc>
     <lastmod>2025-01-27T12:41:17+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/yolo/</loc>
+    <loc>https://yusjade.github.io/categories/yolo/</loc>
     <lastmod>2025-01-27T12:41:17+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://yusjade.github.io/</loc>
     <lastmod>2025-01-27T12:41:17+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2/</loc>
+    <loc>https://yusjade.github.io/categories/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2025-01-27T12:41:17+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/note-yolov7-employ-ncnn/</loc>
+    <loc>https://yusjade.github.io/posts/note-yolov7-employ-ncnn/</loc>
     <lastmod>2025-01-27T12:41:17+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://yusjade.github.io/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://yusjade.github.io/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/friends/</loc>
+    <loc>https://yusjade.github.io/friends/</loc>
   </url>
 </urlset>
