@@ -11,10 +11,29 @@
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 11 Mar 2025 12:21:17 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 15:28:13 +0800</lastBuildDate>
     <atom:link href="https://yusjade.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dify Agent 配置 Function Calling</title>
+      <title>Dify | 使用知识库与Jina获取博客内容</title>
+      <link>https://yusjade.github.io/posts/dify_use_knowledge_jina/</link>
+      <pubDate>Tue, 11 Mar 2025 15:28:13 +0800</pubDate>
+      <guid>https://yusjade.github.io/posts/dify_use_knowledge_jina/</guid>
+      <description>&lt;h2 id=&#34;在-dify-中配置-jina&#34;&gt;在 Dify 中配置 Jina&lt;/h2&gt;
+&lt;p&gt;在 &lt;code&gt;设置 - 模型供应商 -  安装模型供应商&lt;/code&gt; 选择安装 Jina 模型供应商，为知识库提供 Embedding 模型和 Rerank 模型。&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;设置 - 数据来源 - Web 站点 使用 Jina Reader&lt;/code&gt; 配置 Jina API key，key 可以通过访问 Jina 官网免费获得：&lt;a href=&#34;https://jina.ai/reader/&#34;&gt;jina.ai&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dify | 修复 “doc_metadata” 字段引发的问题</title>
+      <link>https://yusjade.github.io/posts/fix_dify_doc_metadata/</link>
+      <pubDate>Tue, 11 Mar 2025 14:49:21 +0800</pubDate>
+      <guid>https://yusjade.github.io/posts/fix_dify_doc_metadata/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考 Issue: &lt;a href=&#34;https://github.com/langgenius/dify/issues/14900&#34;&gt;&amp;ldquo;Knowledge&amp;rdquo; is not working: &amp;ldquo;tool invoke error: &amp;lsquo;Document&amp;rsquo; object has no attribute &amp;lsquo;doc_metadat&amp;rsquo;&amp;quot;#14900&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dify 在调用知识库时，字段 &lt;code&gt;doc_metadata&lt;/code&gt; 拼写错误成了 &lt;code&gt;doc_metadat&lt;/code&gt;，官方已在上周修复了源码，但 docker 镜像迟迟未发布，需要自己更新镜像中的代码。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dify | Agent 配置 Function Calling</title>
       <link>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</link>
       <pubDate>Tue, 11 Mar 2025 12:21:17 +0800</pubDate>
       <guid>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</guid>

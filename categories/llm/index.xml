@@ -11,10 +11,20 @@
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 11 Mar 2025 12:21:17 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 14:49:21 +0800</lastBuildDate>
     <atom:link href="https://yusjade.github.io/categories/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dify Agent 配置 Function Calling</title>
+      <title>Dify | 修复 “doc_metadata” 字段引发的问题</title>
+      <link>https://yusjade.github.io/posts/fix_dify_doc_metadata/</link>
+      <pubDate>Tue, 11 Mar 2025 14:49:21 +0800</pubDate>
+      <guid>https://yusjade.github.io/posts/fix_dify_doc_metadata/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考 Issue: &lt;a href=&#34;https://github.com/langgenius/dify/issues/14900&#34;&gt;&amp;ldquo;Knowledge&amp;rdquo; is not working: &amp;ldquo;tool invoke error: &amp;lsquo;Document&amp;rsquo; object has no attribute &amp;lsquo;doc_metadat&amp;rsquo;&amp;quot;#14900&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dify 在调用知识库时，字段 &lt;code&gt;doc_metadata&lt;/code&gt; 拼写错误成了 &lt;code&gt;doc_metadat&lt;/code&gt;，官方已在上周修复了源码，但 docker 镜像迟迟未发布，需要自己更新镜像中的代码。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dify | Agent 配置 Function Calling</title>
       <link>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</link>
       <pubDate>Tue, 11 Mar 2025 12:21:17 +0800</pubDate>
       <guid>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</guid>

@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yusjade.github.io/posts/dify_use_knowledge_jina/</loc>
+    <lastmod>2025-03-11T15:28:13+08:00</lastmod>
+  </url><url>
+    <loc>https://yusjade.github.io/posts/</loc>
+    <lastmod>2025-03-11T15:28:13+08:00</lastmod>
+  </url><url>
+    <loc>https://yusjade.github.io/</loc>
+    <lastmod>2025-03-11T15:28:13+08:00</lastmod>
+  </url><url>
     <loc>https://yusjade.github.io/categories/</loc>
-    <lastmod>2025-03-11T12:21:17+08:00</lastmod>
+    <lastmod>2025-03-11T14:49:21+08:00</lastmod>
   </url><url>
     <loc>https://yusjade.github.io/categories/dify/</loc>
-    <lastmod>2025-03-11T12:21:17+08:00</lastmod>
+    <lastmod>2025-03-11T14:49:21+08:00</lastmod>
+  </url><url>
+    <loc>https://yusjade.github.io/posts/fix_dify_doc_metadata/</loc>
+    <lastmod>2025-03-11T14:49:21+08:00</lastmod>
+  </url><url>
+    <loc>https://yusjade.github.io/categories/llm/</loc>
+    <lastmod>2025-03-11T14:49:21+08:00</lastmod>
   </url><url>
     <loc>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</loc>
     <lastmod>2025-03-11T12:21:17+08:00</lastmod>
   </url><url>
     <loc>https://yusjade.github.io/categories/function-calling/</loc>
-    <lastmod>2025-03-11T12:21:17+08:00</lastmod>
-  </url><url>
-    <loc>https://yusjade.github.io/categories/llm/</loc>
-    <lastmod>2025-03-11T12:21:17+08:00</lastmod>
-  </url><url>
-    <loc>https://yusjade.github.io/posts/</loc>
-    <lastmod>2025-03-11T12:21:17+08:00</lastmod>
-  </url><url>
-    <loc>https://yusjade.github.io/</loc>
     <lastmod>2025-03-11T12:21:17+08:00</lastmod>
   </url><url>
     <loc>https://yusjade.github.io/categories/ncnn/</loc>
