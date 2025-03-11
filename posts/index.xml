@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 11 Mar 2025 15:28:13 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 21:29:49 +0800</lastBuildDate>
     <atom:link href="https://yusjade.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CMake &#43; Qt 无法编译.ui文件的解决办法</title>
+      <link>https://yusjade.github.io/posts/cmake_autouic_problem/</link>
+      <pubDate>Tue, 11 Mar 2025 21:29:49 +0800</pubDate>
+      <guid>https://yusjade.github.io/posts/cmake_autouic_problem/</guid>
+      <description>&lt;h2 id=&#34;解决办法&#34;&gt;解决办法&lt;/h2&gt;
+&lt;p&gt;在启用 CMAKE_AUTOUIC 的同时，将使用了&lt;code&gt;#include &amp;quot;ui_&amp;lt;base_ui&amp;gt;.h&amp;quot;&lt;/code&gt;的头文件加入到&lt;code&gt;add_executable&lt;/code&gt;的 SOURCE 中即可。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dify | 使用知识库与Jina获取博客内容</title>
       <link>https://yusjade.github.io/posts/dify_use_knowledge_jina/</link>
