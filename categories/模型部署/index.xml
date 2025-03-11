@@ -11,23 +11,8 @@
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 11 Mar 2025 12:21:17 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 12:41:17 +0800</lastBuildDate>
     <atom:link href="https://yusjade.github.io/categories/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>使用 ncnn 将 Yolov7 部署到 Android</title>
-      <link>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</link>
-      <pubDate>Tue, 11 Mar 2025 12:21:17 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</guid>
-      <description>&lt;h1 id=&#34;dify-agent-配置-function-calling&#34;&gt;Dify Agent 配置 Function Calling&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;目标：借助 Dify 使用 deepseek-chat 模型的 &lt;strong&gt;Function Calling&lt;/strong&gt; 能力，使 agent 获得调用留言板信息 API 的能力。&lt;a href=&#34;https://api-docs.deepseek.com/zh-cn/guides/function_calling&#34;&gt;Function Calling 详见 | DeepSeek API Docs&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;配置模型供应商&#34;&gt;配置模型供应商&lt;/h2&gt;
-&lt;img src=&#34;images/llm_provider.png&#34;&gt;
-&lt;h2 id=&#34;新建工具-tool&#34;&gt;新建工具 Tool&lt;/h2&gt;
-&lt;h3 id=&#34;导入-openapi-schema&#34;&gt;导入 OpenAPI Schema&lt;/h3&gt;
-&lt;p&gt;OpenAPI 是用来定义 HTTP APIs 的一套“语言”，它可以描述一个 HTTP 服务暴露了什么“模样”的接口，这里使用我的留言板服务的 OpenAPI Schema，如此配置之后，&lt;strong&gt;模型就能理解应该以什么样的数据结构去请求我们 HTTP 服务&lt;/strong&gt;，也能正确解析接口返回的响应数据。&lt;/p&gt;</description>
-    </item>
     <item>
       <title>使用 ncnn 将 Yolov7 部署到 Android</title>
       <link>https://yusjade.github.io/posts/note-yolov7-employ-ncnn/</link>
