@@ -18,8 +18,7 @@
       <link>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</link>
       <pubDate>Tue, 11 Mar 2025 12:21:17 +0800</pubDate>
       <guid>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</guid>
-      <description>&lt;h1 id=&#34;dify-agent-配置-function-calling&#34;&gt;Dify Agent 配置 Function Calling&lt;/h1&gt;
-&lt;blockquote&gt;
+      <description>&lt;blockquote&gt;
 &lt;p&gt;目标：借助 Dify 使用 deepseek-chat 模型的 &lt;strong&gt;Function Calling&lt;/strong&gt; 能力，使 agent 获得调用留言板信息 API 的能力。&lt;a href=&#34;https://api-docs.deepseek.com/zh-cn/guides/function_calling&#34;&gt;Function Calling 详见 | DeepSeek API Docs&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;配置模型供应商&#34;&gt;配置模型供应商&lt;/h2&gt;
