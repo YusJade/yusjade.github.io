@@ -11,8 +11,21 @@
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 12 Mar 2025 21:41:46 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 23:35:45 +0800</lastBuildDate>
     <atom:link href="https://yusjade.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>赛博魔杖 | user_button 模块分析</title>
+      <link>https://yusjade.github.io/posts/cyberry_potter_user_button/</link>
+      <pubDate>Wed, 12 Mar 2025 23:35:45 +0800</pubDate>
+      <guid>https://yusjade.github.io/posts/cyberry_potter_user_button/</guid>
+      <description>&lt;p&gt;&lt;em&gt;资料索引：&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原理图与 PCB 设计：&lt;a href=&#34;https://pro.lceda.cn/editor#id=ac55f5c253d44bad946b1e8647b2ef23,tab=*d46dc1c7cffa4e33863edc31fd66bab8@ac55f5c253d44bad946b1e8647b2ef23%7C6bf1eb7b2f094edea220c124a1d5fb3b@ac55f5c253d44bad946b1e8647b2ef23&#34;&gt;赛博魔杖_STM32卷积神经网络 | PCB_Main | 嘉立创EDA(专业版) - V2.2.36&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;源代码仓库：🐈‍⬛&lt;a href=&#34;https://github.com/lyg09270/Cyberry_Potter_Electromagic_Wand&#34;&gt;lyg09270/Cyberry_Potter_Electromagic_Wand: 一根可以通过在空中画出不同的形状来控制的魔杖(像真正的巫师一样).&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;模块功能总结&#34;&gt;模块功能总结&lt;/h2&gt;
+&lt;p&gt;硬件和代码主要实现了以下功能：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Pwsh | Tips: 如何快速 cd 到常用目录</title>
       <link>https://yusjade.github.io/posts/pwsh_write_a_function_in_profile/</link>
