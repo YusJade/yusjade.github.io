@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yusjade.github.io/categories/</loc>
+    <lastmod>2025-03-14T22:29:19+08:00</lastmod>
+  </url><url>
+    <loc>https://yusjade.github.io/categories/home-assistant/</loc>
+    <lastmod>2025-03-14T22:29:19+08:00</lastmod>
+  </url><url>
+    <loc>https://yusjade.github.io/categories/mqtt/</loc>
+    <lastmod>2025-03-14T22:29:19+08:00</lastmod>
+  </url><url>
     <loc>https://yusjade.github.io/posts/</loc>
     <lastmod>2025-03-14T22:29:19+08:00</lastmod>
   </url><url>
@@ -11,13 +20,7 @@
     <loc>https://yusjade.github.io/posts/valid_homeassistant_use_mqtt/</loc>
     <lastmod>2025-03-14T22:29:19+08:00</lastmod>
   </url><url>
-    <loc>https://yusjade.github.io/categories/</loc>
-    <lastmod>2025-03-14T14:19:18+08:00</lastmod>
-  </url><url>
     <loc>https://yusjade.github.io/categories/esp8266/</loc>
-    <lastmod>2025-03-14T14:19:18+08:00</lastmod>
-  </url><url>
-    <loc>https://yusjade.github.io/categories/mqtt/</loc>
     <lastmod>2025-03-14T14:19:18+08:00</lastmod>
   </url><url>
     <loc>https://yusjade.github.io/categories/nicu2025/</loc>
