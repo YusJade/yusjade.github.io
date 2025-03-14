@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Esp8266 on YusJade 的个人博客</title>
+    <link>https://yusjade.github.io/categories/esp8266/</link>
+    <description>Recent content in Esp8266 on YusJade 的个人博客</description>
+    <image>
+      <title>YusJade 的个人博客</title>
+      <url>https://yusjade.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yusjade.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 14 Mar 2025 14:19:18 +0800</lastBuildDate>
+    <atom:link href="https://yusjade.github.io/categories/esp8266/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>想法验证 一 | 在 esp8266 使用 MQTT 通信</title>
+      <link>https://yusjade.github.io/posts/valid_esp8266_use_mqtt/</link>
+      <pubDate>Fri, 14 Mar 2025 14:19:18 +0800</pubDate>
+      <guid>https://yusjade.github.io/posts/valid_esp8266_use_mqtt/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;目标：esp8266 接受来自 mqtt 消息队列的信息并完成指定动作（电灯、驱动舵机等&amp;hellip;）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;MQTT 是一种轻量级的发布/订阅消息传输协议，专为低带宽、不稳定网络环境下的物联网设备通信而设计。、&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
