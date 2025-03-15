@@ -97,6 +97,12 @@ main .gsc-loading-image {
   background-image: url(https://github.githubassets.com/images/mona-loading-dark.gif)
 }
 
+@font-face {
+  font-family: "LXGWWenKai";
+  src: url("/fonts/lxgwwenkaiscreen.subset.v1.235.standard.woff2");
+}
+
+
 :host,
 html {
   --font-family-sans: "LXGWWenKai";
