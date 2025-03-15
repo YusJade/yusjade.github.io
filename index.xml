@@ -11,8 +11,102 @@
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 14 Mar 2025 22:29:19 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Mar 2025 14:02:00 +0800</lastBuildDate>
     <atom:link href="https://yusjade.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arduino | 如何组织一个 Arduino 第三方库</title>
+      <link>https://yusjade.github.io/posts/how_to_organize_arduino_library/</link>
+      <pubDate>Sat, 15 Mar 2025 14:02:00 +0800</pubDate>
+      <guid>https://yusjade.github.io/posts/how_to_organize_arduino_library/</guid>
+      <description>&lt;p&gt;在形如 &lt;code&gt;&amp;lt;X&amp;gt;:\Documents\Arduino\libraries&lt;/code&gt; 的目录下通常能找到当前 Arduino IDE 安装的所有库。&lt;/p&gt;
+&lt;h2 id=&#34;arduino-第三方库的目录结构&#34;&gt;Arduino 第三方库的目录结构&lt;/h2&gt;
+&lt;p&gt;按如下结构组织的文件才能被 Arduino IDE 识别为已安装的库。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└───PubSubClient &lt;span class=&#34;c1&#34;&gt;# 以该库为例&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   CHANGES.txt  &lt;span class=&#34;c1&#34;&gt;# 更新日志&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   keywords.txt &lt;span class=&#34;c1&#34;&gt;# 提供语法高亮功能&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   library.json &lt;span class=&#34;c1&#34;&gt;# 库的一些相关信息&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   library.properties &lt;span class=&#34;c1&#34;&gt;# 库的一些相关信息&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   LICENSE.txt &lt;span class=&#34;c1&#34;&gt;# 协议&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   README.md 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├───examples &lt;span class=&#34;c1&#34;&gt;# 代码示例&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   ├───mqtt_auth
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │       mqtt_auth.ino
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   ├───mqtt_basic
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │       mqtt_basic.ino
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   ├───mqtt_esp8266
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │       mqtt_esp8266.ino
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   ├───mqtt_large_message
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │       mqtt_large_message.ino
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   ├───mqtt_publish_in_callback
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │       mqtt_publish_in_callback.ino
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   ├───mqtt_reconnect_nonblocking
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │       mqtt_reconnect_nonblocking.ino
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │   └───mqtt_stream
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │           mqtt_stream.ino
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├───src &lt;span class=&#34;c1&#34;&gt;# 源码&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │       PubSubClient.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │       PubSubClient.h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    └───tests
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │   Makefile
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │   README.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │   testsuite.py
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ├───src
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │   │   connect_spec.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │   │   keepalive_spec.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │   │   publish_spec.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │   │   receive_spec.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │   │   subscribe_spec.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │   └───lib
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           Arduino.h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           BDDTest.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           BDDTest.h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           Buffer.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           Buffer.h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           Client.h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           IPAddress.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           IPAddress.h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           Print.h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           ShimClient.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           ShimClient.h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           Stream.cpp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           Stream.h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │           trace.h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        └───testcases
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                mqtt_basic.py
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                mqtt_publish_in_callback.py
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                settings.py
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                __init__.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;libraryjson--libraryproperties&#34;&gt;library.json / library.properties&lt;/h3&gt;
+&lt;p&gt;都是一些库信息，例如作者、版本、描述，源码仓库之类的&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>想法验证 三 | 将 Keras 模型部署到微控制器上</title>
+      <link>https://yusjade.github.io/posts/valid_keras2nnom_arduino/</link>
+      <pubDate>Sat, 15 Mar 2025 12:43:15 +0800</pubDate>
+      <guid>https://yusjade.github.io/posts/valid_keras2nnom_arduino/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;目标： 依赖 nnom 库，将 keras 模型部署到 esp、stm32 等微控制器上&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;🐈‍⬛&lt;a href=&#34;https://github.com/majianjia/nnom&#34;&gt;majianjia/nnom: 适用于微控制器的高级神经网络库.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;部署到-stm32--keil&#34;&gt;部署到 stm32 | Keil&lt;/h2&gt;
+&lt;p&gt;还没有 stm32 的板子&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;部署到-esp8266--arduino&#34;&gt;部署到 esp8266 | Arduino&lt;/h2&gt;
+&lt;h3 id=&#34;首要问题是如何在-arduino-ide-中编译-nnom-库&#34;&gt;首要问题是如何在 Arduino IDE 中编译 nnom 库&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;自己“制作”一个 Arduino 库：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>想法验证 二 | Home Assistant 集成 MQTT</title>
       <link>https://yusjade.github.io/posts/valid_homeassistant_use_mqtt/</link>

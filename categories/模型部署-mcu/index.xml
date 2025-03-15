@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>模型部署， Mcu on YusJade 的个人博客</title>
+    <link>http://localhost:1313/categories/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2-mcu/</link>
+    <description>Recent content in 模型部署， Mcu on YusJade 的个人博客</description>
+    <image>
+      <title>YusJade 的个人博客</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 15 Mar 2025 12:43:15 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2-mcu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>想法验证 三 | 将 Keras 模型部署到微控制器上</title>
+      <link>http://localhost:1313/posts/valid_keras2nnom_arduino/</link>
+      <pubDate>Sat, 15 Mar 2025 12:43:15 +0800</pubDate>
+      <guid>http://localhost:1313/posts/valid_keras2nnom_arduino/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;目标： 依赖 nnom 库，将 keras 模型部署到 esp、stm32 等微控制器上&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;🐈‍⬛&lt;a href=&#34;https://github.com/majianjia/nnom&#34;&gt;majianjia/nnom: 适用于微控制器的高级神经网络库.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;部署到-stm32--keil&#34;&gt;部署到 stm32 | Keil&lt;/h2&gt;
+&lt;p&gt;还没有 stm32 的板子&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;部署到-esp8266--arduino&#34;&gt;部署到 esp8266 | Arduino&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>

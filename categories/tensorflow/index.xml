@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>模型部署 on YusJade 的个人博客</title>
-    <link>https://yusjade.github.io/categories/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2/</link>
-    <description>Recent content in 模型部署 on YusJade 的个人博客</description>
+    <title>Tensorflow on YusJade 的个人博客</title>
+    <link>https://yusjade.github.io/categories/tensorflow/</link>
+    <description>Recent content in Tensorflow on YusJade 的个人博客</description>
     <image>
       <title>YusJade 的个人博客</title>
       <url>https://yusjade.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.142.0</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 15 Mar 2025 12:43:15 +0800</lastBuildDate>
-    <atom:link href="https://yusjade.github.io/categories/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusjade.github.io/categories/tensorflow/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>想法验证 三 | 将 Keras 模型部署到微控制器上</title>
       <link>https://yusjade.github.io/posts/valid_keras2nnom_arduino/</link>
@@ -28,17 +28,6 @@
 &lt;h3 id=&#34;首要问题是如何在-arduino-ide-中编译-nnom-库&#34;&gt;首要问题是如何在 Arduino IDE 中编译 nnom 库&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;自己“制作”一个 Arduino 库：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>使用 ncnn 将 Yolov7 部署到 Android</title>
-      <link>https://yusjade.github.io/posts/note-yolov7-employ-ncnn/</link>
-      <pubDate>Mon, 27 Jan 2025 12:41:17 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/note-yolov7-employ-ncnn/</guid>
-      <description>&lt;h2 id=&#34;part1-拉取-yolov7-仓库并配置适用的虚拟环境&#34;&gt;part1: 拉取 Yolov7 仓库并配置适用的虚拟环境&lt;/h2&gt;
-&lt;h3 id=&#34;part1-1-安装-git-和-miniconda&#34;&gt;part1-1: 安装 Git 和 MiniConda&lt;/h3&gt;
-
-&lt;div class=&#34;notice notice-info&#34; &gt;
-    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;Git 是一个分布式版本控制系统，主要用于跟踪代码变更、协作开发和版本管理。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

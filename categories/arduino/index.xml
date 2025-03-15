@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on YusJade 的个人博客</title>
-    <link>https://yusjade.github.io/posts/</link>
-    <description>Recent content in Posts on YusJade 的个人博客</description>
+    <title>Arduino on YusJade 的个人博客</title>
+    <link>https://yusjade.github.io/categories/arduino/</link>
+    <description>Recent content in Arduino on YusJade 的个人博客</description>
     <image>
       <title>YusJade 的个人博客</title>
       <url>https://yusjade.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.142.0</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 15 Mar 2025 14:02:00 +0800</lastBuildDate>
-    <atom:link href="https://yusjade.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusjade.github.io/categories/arduino/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arduino | 如何组织一个 Arduino 第三方库</title>
       <link>https://yusjade.github.io/posts/how_to_organize_arduino_library/</link>
@@ -90,123 +90,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                __init__.py
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;libraryjson--libraryproperties&#34;&gt;library.json / library.properties&lt;/h3&gt;
 &lt;p&gt;都是一些库信息，例如作者、版本、描述，源码仓库之类的&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>想法验证 三 | 将 Keras 模型部署到微控制器上</title>
-      <link>https://yusjade.github.io/posts/valid_keras2nnom_arduino/</link>
-      <pubDate>Sat, 15 Mar 2025 12:43:15 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/valid_keras2nnom_arduino/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;目标： 依赖 nnom 库，将 keras 模型部署到 esp、stm32 等微控制器上&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;🐈‍⬛&lt;a href=&#34;https://github.com/majianjia/nnom&#34;&gt;majianjia/nnom: 适用于微控制器的高级神经网络库.&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;部署到-stm32--keil&#34;&gt;部署到 stm32 | Keil&lt;/h2&gt;
-&lt;p&gt;还没有 stm32 的板子&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;部署到-esp8266--arduino&#34;&gt;部署到 esp8266 | Arduino&lt;/h2&gt;
-&lt;h3 id=&#34;首要问题是如何在-arduino-ide-中编译-nnom-库&#34;&gt;首要问题是如何在 Arduino IDE 中编译 nnom 库&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;自己“制作”一个 Arduino 库：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>想法验证 二 | Home Assistant 集成 MQTT</title>
-      <link>https://yusjade.github.io/posts/valid_homeassistant_use_mqtt/</link>
-      <pubDate>Fri, 14 Mar 2025 22:29:19 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/valid_homeassistant_use_mqtt/</guid>
-      <description>&lt;h2 id=&#34;在-docker-compose-上部署-home-assistant&#34;&gt;在 docker compose 上部署 Home Assistant&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;确保已安装 docker 👉：&lt;a href=&#34;https://blog.csdn.net/ziqibit/article/details/129698618&#34;&gt;docker 和 docker-compose 安装、配置、卸载（windows+linux）-CSDN博客&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;参考文档： &lt;a href=&#34;https://www.home-assistant.io/installation/linux#docker-compose&#34;&gt;Linux - Home Assistant&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;创建目录 home_assistant，在目录中新建 docker-compose.yml，内容如下：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>想法验证 一 | 在 esp8266 使用 MQTT 通信</title>
-      <link>https://yusjade.github.io/posts/valid_esp8266_use_mqtt/</link>
-      <pubDate>Fri, 14 Mar 2025 14:19:18 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/valid_esp8266_use_mqtt/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;目标：esp8266 接受来自 mqtt 消息队列的信息并完成指定动作（电灯、驱动舵机等&amp;hellip;）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;MQTT 是一种轻量级的发布/订阅消息传输协议，专为低带宽、不稳定网络环境下的物联网设备通信而设计。、&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>赛博魔杖 | user_button 模块分析</title>
-      <link>https://yusjade.github.io/posts/cyberry_potter_user_button/</link>
-      <pubDate>Wed, 12 Mar 2025 23:35:45 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/cyberry_potter_user_button/</guid>
-      <description>&lt;p&gt;&lt;em&gt;资料索引：&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;原理图与 PCB 设计：&lt;a href=&#34;https://pro.lceda.cn/editor#id=ac55f5c253d44bad946b1e8647b2ef23,tab=*d46dc1c7cffa4e33863edc31fd66bab8@ac55f5c253d44bad946b1e8647b2ef23%7C6bf1eb7b2f094edea220c124a1d5fb3b@ac55f5c253d44bad946b1e8647b2ef23&#34;&gt;赛博魔杖_STM32卷积神经网络 | PCB_Main | 嘉立创EDA(专业版) - V2.2.36&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;源代码仓库：🐈‍⬛&lt;a href=&#34;https://github.com/lyg09270/Cyberry_Potter_Electromagic_Wand&#34;&gt;lyg09270/Cyberry_Potter_Electromagic_Wand: 一根可以通过在空中画出不同的形状来控制的魔杖(像真正的巫师一样).&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;模块功能总结&#34;&gt;模块功能总结&lt;/h2&gt;
-&lt;p&gt;硬件和代码主要实现了以下功能：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Pwsh | Tips: 如何快速 cd 到常用目录</title>
-      <link>https://yusjade.github.io/posts/pwsh_write_a_function_in_profile/</link>
-      <pubDate>Wed, 12 Mar 2025 21:41:46 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/pwsh_write_a_function_in_profile/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;最近又用回了 Windows 开发环境，cd 时不习惯 Win 的目录结构，于是发现了一个能&lt;strong&gt;自定义指令&lt;/strong&gt;的方法。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;在-profile-文件中定义函数&#34;&gt;在 $profile 文件中定义函数&lt;/h2&gt;
-&lt;p&gt;在终端执行下列命令，会打印出所有配置文件的位置，形如 &lt;code&gt;X:\...\WindowsPowerShell\Microsoft.PowerShell_profile.ps1&lt;/code&gt;。
-配置文件通常只有一个，直接编辑这个文件即可。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CMake &#43; Qt 无法编译.ui文件的解决办法</title>
-      <link>https://yusjade.github.io/posts/cmake_autouic_problem/</link>
-      <pubDate>Tue, 11 Mar 2025 21:29:49 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/cmake_autouic_problem/</guid>
-      <description>&lt;h2 id=&#34;解决办法&#34;&gt;解决办法&lt;/h2&gt;
-&lt;p&gt;在启用 CMAKE_AUTOUIC 的同时，将使用了&lt;code&gt;#include &amp;quot;ui_&amp;lt;base_ui&amp;gt;.h&amp;quot;&lt;/code&gt;的头文件加入到&lt;code&gt;add_executable&lt;/code&gt;的 SOURCE 中即可。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dify | 使用知识库与Jina获取博客内容</title>
-      <link>https://yusjade.github.io/posts/dify_use_knowledge_jina/</link>
-      <pubDate>Tue, 11 Mar 2025 15:28:13 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/dify_use_knowledge_jina/</guid>
-      <description>&lt;h2 id=&#34;在-dify-中配置-jina&#34;&gt;在 Dify 中配置 Jina&lt;/h2&gt;
-&lt;p&gt;在 &lt;code&gt;设置 - 模型供应商 -  安装模型供应商&lt;/code&gt; 选择安装 Jina 模型供应商，为知识库提供 Embedding 模型和 Rerank 模型。&lt;/p&gt;
-&lt;p&gt;在 &lt;code&gt;设置 - 数据来源 - Web 站点 使用 Jina Reader&lt;/code&gt; 配置 Jina API key，key 可以通过访问 Jina 官网免费获得：&lt;a href=&#34;https://jina.ai/reader/&#34;&gt;jina.ai&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dify | 修复 “doc_metadata” 字段引发的问题</title>
-      <link>https://yusjade.github.io/posts/fix_dify_doc_metadata/</link>
-      <pubDate>Tue, 11 Mar 2025 14:49:21 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/fix_dify_doc_metadata/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;参考 Issue: &lt;a href=&#34;https://github.com/langgenius/dify/issues/14900&#34;&gt;&amp;ldquo;Knowledge&amp;rdquo; is not working: &amp;ldquo;tool invoke error: &amp;lsquo;Document&amp;rsquo; object has no attribute &amp;lsquo;doc_metadat&amp;rsquo;&amp;quot;#14900&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Dify 在调用知识库时，字段 &lt;code&gt;doc_metadata&lt;/code&gt; 拼写错误成了 &lt;code&gt;doc_metadat&lt;/code&gt;，官方已在上周修复了源码，但 docker 镜像迟迟未发布，需要自己更新镜像中的代码。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dify | Agent 配置 Function Calling</title>
-      <link>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</link>
-      <pubDate>Tue, 11 Mar 2025 12:21:17 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/dify_agent%E9%85%8D%E7%BD%AEfunction_calling/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;目标：借助 Dify 使用 deepseek-chat 模型的 &lt;strong&gt;Function Calling&lt;/strong&gt; 能力，使 agent 获得调用留言板信息 API 的能力。&lt;a href=&#34;https://api-docs.deepseek.com/zh-cn/guides/function_calling&#34;&gt;Function Calling 详见 | DeepSeek API Docs&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;配置模型供应商&#34;&gt;配置模型供应商&lt;/h2&gt;
-&lt;img src=&#34;https://yusjade.github.io/images/llm_provider.png&#34;&gt;
-&lt;h2 id=&#34;新建工具-tool&#34;&gt;新建工具 Tool&lt;/h2&gt;
-&lt;h3 id=&#34;导入-openapi-schema&#34;&gt;导入 OpenAPI Schema&lt;/h3&gt;
-&lt;p&gt;OpenAPI 是用来定义 HTTP APIs 的一套“语言”，它可以描述一个 HTTP 服务暴露了什么“模样”的接口，这里使用我的留言板服务的 OpenAPI Schema，如此配置之后，&lt;strong&gt;模型就能理解应该以什么样的数据结构去请求我们 HTTP 服务&lt;/strong&gt;，也能正确解析接口返回的响应数据。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>使用 ncnn 将 Yolov7 部署到 Android</title>
-      <link>https://yusjade.github.io/posts/note-yolov7-employ-ncnn/</link>
-      <pubDate>Mon, 27 Jan 2025 12:41:17 +0800</pubDate>
-      <guid>https://yusjade.github.io/posts/note-yolov7-employ-ncnn/</guid>
-      <description>&lt;h2 id=&#34;part1-拉取-yolov7-仓库并配置适用的虚拟环境&#34;&gt;part1: 拉取 Yolov7 仓库并配置适用的虚拟环境&lt;/h2&gt;
-&lt;h3 id=&#34;part1-1-安装-git-和-miniconda&#34;&gt;part1-1: 安装 Git 和 MiniConda&lt;/h3&gt;
-
-&lt;div class=&#34;notice notice-info&#34; &gt;
-    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;Git 是一个分布式版本控制系统，主要用于跟踪代码变更、协作开发和版本管理。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
