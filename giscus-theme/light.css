@@ -2,7 +2,15 @@
  * Copyright (c) 2018 GitHub Inc.
  * https://github.com/primer/primitives/blob/main/LICENSE
  */
+@font-face {
+  font-family: "LXGWWenKai";
+  src: url("https://yusjade.github.io/fonts/lxgwwenkaiscreen.subset.v1.235.standard.woff2");
+}
+
+
+
 main {
+  font-family: "LXGWWenKai";
   --color-prettylights-syntax-comment: #6e7781;
   --color-prettylights-syntax-constant: #0550ae;
   --color-prettylights-syntax-entity: #8250df;
@@ -96,12 +104,6 @@ main .pagination-loader-container {
 main .gsc-loading-image {
   background-image: url(https://github.githubassets.com/images/mona-loading-default.gif)
 }
-
-@font-face {
-  font-family: "LXGWWenKai";
-  src: url("/fonts/lxgwwenkaiscreen.subset.v1.235.standard.woff2");
-}
-
 
 :host,
 html {
