@@ -21,7 +21,7 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;目标：esp8266 接受来自 mqtt 消息队列的信息并完成指定动作（电灯、驱动舵机等&amp;hellip;）&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;MQTT 是一种轻量级的发布/订阅消息传输协议，专为低带宽、不稳定网络环境下的物联网设备通信而设计。、&lt;/p&gt;</description>
+&lt;p&gt;MQTT 是一种轻量级的发布/订阅消息传输协议，专为低带宽、不稳定网络环境下的物联网设备通信而设计。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

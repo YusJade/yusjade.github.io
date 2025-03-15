@@ -18,14 +18,8 @@
       <link>https://yusjade.github.io/posts/valid_homeassistant_use_mqtt/</link>
       <pubDate>Fri, 14 Mar 2025 22:29:19 +0800</pubDate>
       <guid>https://yusjade.github.io/posts/valid_homeassistant_use_mqtt/</guid>
-      <description>&lt;h2 id=&#34;在-docker-compose-上部署-home-assistant&#34;&gt;在 docker compose 上部署 Home Assistant&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;确保已安装 docker 👉：&lt;a href=&#34;https://blog.csdn.net/ziqibit/article/details/129698618&#34;&gt;docker 和 docker-compose 安装、配置、卸载（windows+linux）-CSDN博客&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;参考文档： &lt;a href=&#34;https://www.home-assistant.io/installation/linux#docker-compose&#34;&gt;Linux - Home Assistant&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;创建目录 home_assistant，在目录中新建 docker-compose.yml，内容如下：&lt;/p&gt;</description>
+      <description>&lt;p&gt;Home Assistant 是一个开源的智能家居自动化平台，允许用户通过本地控制集成和管理各种智能设备，提供高度定制化和隐私保护的家庭自动化解决方案。&lt;/p&gt;
+&lt;p&gt;MQTT 是一种轻量级的发布/订阅消息传输协议，专为低带宽、不稳定网络环境下的物联网设备通信而设计。&lt;/p&gt;</description>
     </item>
     <item>
       <title>想法验证 一 | 在 esp8266 使用 MQTT 通信</title>
@@ -35,7 +29,7 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;目标：esp8266 接受来自 mqtt 消息队列的信息并完成指定动作（电灯、驱动舵机等&amp;hellip;）&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;MQTT 是一种轻量级的发布/订阅消息传输协议，专为低带宽、不稳定网络环境下的物联网设备通信而设计。、&lt;/p&gt;</description>
+&lt;p&gt;MQTT 是一种轻量级的发布/订阅消息传输协议，专为低带宽、不稳定网络环境下的物联网设备通信而设计。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

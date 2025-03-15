@@ -25,9 +25,12 @@
 &lt;h2 id=&#34;部署到-stm32--keil&#34;&gt;部署到 stm32 | Keil&lt;/h2&gt;
 &lt;p&gt;还没有 stm32 的板子&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;部署到-esp8266--arduino&#34;&gt;部署到 esp8266 | Arduino&lt;/h2&gt;
-&lt;h3 id=&#34;首要问题是如何在-arduino-ide-中编译-nnom-库&#34;&gt;首要问题是如何在 Arduino IDE 中编译 nnom 库&lt;/h3&gt;
+&lt;h3 id=&#34;首先是如何在-arduino-ide-中编译-nnom-库&#34;&gt;首先是如何在 Arduino IDE 中编译 nnom 库&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 该步骤已验证成功&lt;/li&gt;
+&lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;自己“制作”一个 Arduino 库：&lt;/p&gt;</description>
+&lt;p&gt;自己“制作”一个 Arduino 库： &lt;a href=&#34;https://yusjade.github.io/posts/how_to_organize_arduino_library/&#34;&gt;Arduino | 如何组织一个 Arduino 第三方库 &lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
