@@ -96,19 +96,9 @@
       <link>https://yusjade.github.io/posts/valid_keras2nnom_arduino/</link>
       <pubDate>Sat, 15 Mar 2025 12:43:15 +0800</pubDate>
       <guid>https://yusjade.github.io/posts/valid_keras2nnom_arduino/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;目标： 依赖 nnom 库，将 keras 模型部署到 esp、stm32 等微控制器上&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;🐈‍⬛&lt;a href=&#34;https://github.com/majianjia/nnom&#34;&gt;majianjia/nnom: 适用于微控制器的高级神经网络库.&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;部署到-stm32--keil&#34;&gt;部署到 stm32 | Keil&lt;/h2&gt;
-&lt;p&gt;还没有 stm32 的板子&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;部署到-esp8266--arduino&#34;&gt;部署到 esp8266 | Arduino&lt;/h2&gt;
-&lt;h3 id=&#34;首先是如何在-arduino-ide-中编译-nnom-库&#34;&gt;首先是如何在 Arduino IDE 中编译 nnom 库&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 该步骤已验证成功&lt;/li&gt;
-&lt;/ul&gt;
+      <description>&lt;p&gt;&amp;ldquo;tf.keras 是用于构建和训练深度学习模型的 TensorFlow 高阶 API。利用此 API，可实现快速原型设计、先进的研究和生产&amp;hellip;&amp;rdquo; —— &lt;a href=&#34;https://tensorflow.google.cn/guide/keras?hl=zh-cn&#34;&gt;Keras  |  TensorFlow Core&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;自己“制作”一个 Arduino 库： &lt;a href=&#34;https://yusjade.github.io/posts/how_to_organize_arduino_library/&#34;&gt;Arduino | 如何组织一个 Arduino 第三方库 &lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;目标： 依赖 nnom 库，将 keras 模型部署到 esp、stm32 等微控制器上&lt;/p&gt;</description>
     </item>
     <item>
       <title>想法验证 二 | Home Assistant 集成 MQTT</title>
