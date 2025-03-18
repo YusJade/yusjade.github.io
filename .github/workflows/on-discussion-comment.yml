@@ -13,5 +13,5 @@ jobs:
         run: |
           curl -X POST \
             -H "Content-Type: application/json" \
-            -d '{"content": "YusJade`s Blog receive a new comment#${{ github.event.comment.id }} on ${{ github.event.discussion.id }}: ${{ github.event.comment.body }} }"' \
+            -d '{"content": "YusJade`s Blog receive a new comment#${{ github.event.comment.id }} on ${{ github.event.discussion.id }}: ${{ github.event.comment.body }} "}' \
             http://123.207.43.230:25595/api/message-board
