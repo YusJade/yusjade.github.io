@@ -20,6 +20,7 @@ jobs:
                     "discussion_id": "${{ github.event.discussion.node_id }}",
                     "comment_body": "${{ github.event.comment.body }}"
                   },
-                  "response_mode": "blocking"
+                  "response_mode": "blocking",
+                  "user": "robot"
                 }'
 
