@@ -11,14 +11,15 @@ jobs:
     steps:
       - name: Call your API
         run: |
-          curl -X POST \
+          curl -X POST 'http://123.207.43.230/v1/workflows/run' \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bear ${{ secrets.DIFY_API_KEY  }}" \
+            -H "Authorization: Bearer ${{secrets.DIFY_API_KEY}}" \
             -d '{ 
                   "inputs" : {
                     "comment_id":  "${{ github.event.comment.node_id }}", 
                     "discussion_id": "${{ github.event.discussion.node_id }}",
                     "comment_body": "${{ github.event.comment.body }}"
-                  }
-                }' \
-            http://123.207.43.230/v1
+                  },
+                  "response_mode": "blocking"
+                }'
+
