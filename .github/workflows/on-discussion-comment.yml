@@ -1,4 +1,4 @@
-name: Trigger API on Discussion Comment to Use Bot.
+name: 调用 Dify API 以使用智能回复体
 
 on:
   discussion_comment:
@@ -9,7 +9,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Call your API
+      - name: check top comment
+        id: check_comment
+        run: |
+          # 检查是否是顶级评论
+          if [ -z "${{ github.event.comment.in_reply_to_id }}" ]; then
+            echo "comment_type=top_level" >> $GITHUB_OUTPUT
+          else
+            echo "comment_type=reply" >> $GITHUB_OUTPUT
+          fi
+
+      - name: call reply robot
+        if: steps.check_comment.outputs.comment_type == 'top_level'
         run: |
           curl -X POST 'http://123.207.43.230/v1/workflows/run' \
             -H "Content-Type: application/json" \
@@ -23,4 +34,3 @@ jobs:
                   "response_mode": "blocking",
                   "user": "robot"
                 }'
-
