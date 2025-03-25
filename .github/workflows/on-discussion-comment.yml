@@ -21,4 +21,4 @@ jobs:
                     "comment_body": "${{ github.event.comment.body }}"
                   }
                 }' \
-            http://123.207.43.230:25595/api/message-board
+            http://123.207.43.230/v1
