@@ -13,5 +13,12 @@ jobs:
         run: |
           curl -X POST \
             -H "Content-Type: application/json" \
-            -d '{"content": "YusJade`s Blog receive a new comment#${{ github.event.comment.node_id }} on ${{ github.event.discussion.node_id }}: ${{ github.event.comment.body }} "}' \
+            -H "Authorization: Bear ${{ secrets.DIFY_API_KEY  }}" \
+            -d '{ 
+                  "inputs" : {
+                    "comment_id":  "${{ github.event.comment.node_id }}", 
+                    "discussion_id": "${{ github.event.discussion.node_id }}",
+                    "comment_body": "${{ github.event.comment.body }}"
+                  }
+                }' \
             http://123.207.43.230:25595/api/message-board
